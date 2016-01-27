@@ -1,2 +1,3 @@
-# angular2-codigos
-Código fonte do livro Angular 2 na prática
+# angular2-codes
+
+Source code of book (https://leanpub.com/practical-angular-2)[https://leanpub.com/practical-angular-2]
