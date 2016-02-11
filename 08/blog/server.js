@@ -175,6 +175,10 @@ router.route('/posts/:post_id?')
        
     });
 
+app.all('/*', function(req, res, next) {
+    // Just send the index.html for other files to support HTML5Mode
+    res.sendFile('./public/index.html', { root: __dirname });
+});
 
 //register router
 app.use('/api', router);
